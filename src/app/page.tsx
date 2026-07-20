@@ -72,7 +72,8 @@ export default function Page() {
           <div className="space-y-6 sm:space-y-8 w-full min-w-0">
             <FilterBar filters={filters} setFilters={setFilters} />
             
-            <StatCards stats={stats} />
+            <StatCards stats={stats} loading={loading} />
+
 
             <div className="w-full min-w-0 overflow-hidden">
               <ApplicantTable
