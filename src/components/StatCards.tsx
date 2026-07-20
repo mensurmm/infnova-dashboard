@@ -35,7 +35,7 @@ export default function StatCards({ stats, loading }: StatCardsProps) {
                 <div className="h-8 w-16 bg-slate-100 animate-pulse rounded-md mt-1" />
               ) : (
                 <h3 className="text-2xl font-bold text-slate-800 mt-0.5">
-                  {card.value.toLocaleString()}
+                  {(card.value ?? 0).toLocaleString()}
                 </h3>
               )}
             </div>
