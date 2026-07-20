@@ -15,6 +15,12 @@ In response to the practical frontend development challenge, this **Internship A
 
 * **Repository:** [https://github.com/mensurmm/infnova-dashboard]
 * **Live Demo:** [https://infnova-dashboard.vercel.app/]
+## 🔑 Demo Credentials for the live Demo
+
+To access the live portal, use the official test administrator credentials provided by the INFNOVA API:
+
+* **Email:** `admin@infnova.tech`
+* **Password:** `InternChallenge2026!`
 
 ---
 
