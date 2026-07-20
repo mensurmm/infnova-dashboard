@@ -25,7 +25,7 @@ export default function SettingsView({
   activeStatusFilter = 'all',
   onRefreshData 
 }: SettingsViewProps) {
-  const { isAuthenticated } = useAuth();
+  const { user } = useAuth();
   // Diagnostics ping state
   const [pingStatus, setPingStatus] = useState<'idle' | 'testing' | 'success'>('idle');
   const [lastSyncedTime, setLastSyncedTime] = useState<string>('Just now');
