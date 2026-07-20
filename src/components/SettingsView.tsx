@@ -25,8 +25,7 @@ export default function SettingsView({
   activeStatusFilter = 'all',
   onRefreshData 
 }: SettingsViewProps) {
-  const { isAuthenticated } = useAuth();
-
+  const { user } = useAuth();
 
   // Diagnostics ping state
   const [pingStatus, setPingStatus] = useState<'idle' | 'testing' | 'success'>('idle');
@@ -54,7 +53,7 @@ export default function SettingsView({
       a.track || '',
       a.country || '',
       a.status || '',
-      a.appliedDate || '',
+      a.applicationDate || '',
     ]);
 
     const csvContent =
