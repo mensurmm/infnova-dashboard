@@ -30,3 +30,15 @@ export interface FilterState {
   status?: ApplicantStatus;
   track?: string;
 }
+
+// Added DashboardStats required by StatCards.tsx
+export interface DashboardStats {
+  total: number;
+  pending: number;
+  interviews?: number;
+  hired?: number;
+  shortlisted?: number;
+  accepted?: number;
+  rejected?: number;
+  [key: string]: number | undefined;
+}
