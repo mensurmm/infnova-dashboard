@@ -1,5 +1,5 @@
 import { X, Mail, Phone, MapPin, Globe, Calendar, Briefcase, FileText } from 'lucide-react';
-import { Applicant } from '../types';
+import { Applicant } from '../../types';
 
 interface ProfileDrawerProps {
   applicant: Applicant | null;

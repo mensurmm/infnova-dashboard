@@ -1,6 +1,6 @@
 // src/components/StatCards.tsx
 import { Users, Clock, Calendar, CheckCircle } from 'lucide-react';
-import { DashboardStats } from '../types';
+import { DashboardStats } from '../../types';
 
 interface StatCardsProps {
   stats: DashboardStats;

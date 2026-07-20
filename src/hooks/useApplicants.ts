@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { api } from '../services/api';
-import { Applicant, DashboardStats, FilterState, ApplicantStatus } from '../types';
+import { Applicant, DashboardStats, FilterState, ApplicantStatus } from '../../types';
 
 const initialFilters: FilterState = {
   search: '',

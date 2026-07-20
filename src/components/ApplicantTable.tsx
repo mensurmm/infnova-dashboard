@@ -1,7 +1,7 @@
 // src/components/ApplicantTable.tsx
 import { useState } from 'react';
 import { MoreVertical, ChevronLeft, ChevronRight, Eye, UserCheck, Calendar } from 'lucide-react';
-import { ApplicantSummary, FilterState } from '../types';
+import { ApplicantSummary, FilterState } from '../../types';
 
 interface ApplicantTableProps {
   applicants: ApplicantSummary[];

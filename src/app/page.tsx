@@ -11,7 +11,7 @@ import ApplicantTable from '../components/ApplicantTable';
 import ProfileDrawer from '../components/ProfileDrawer';
 import SettingsView from '../components/SettingsView';
 import { useApplicants } from '../hooks/useApplicants';
-import { Applicant, ApplicantSummary, ApplicantStatus } from '../types';
+import { Applicant, ApplicantSummary, ApplicantStatus } from '../../types';
 
 export default function Page() {
   const router = useRouter();
