@@ -5,7 +5,7 @@ import { Applicant, DashboardStats, FilterState, ApplicantStatus } from '../type
 const initialFilters: FilterState = {
   search: '',
   role: '', 
-  status: '',
+  status: undefined,
   experienceLevel: '',
   sortBy: 'applicationDate',
   sortOrder: 'desc',

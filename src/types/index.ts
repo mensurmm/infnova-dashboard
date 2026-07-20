@@ -29,6 +29,11 @@ export interface FilterState {
   limit: number;
   status?: ApplicantStatus;
   track?: string;
+  search?: string;
+  role?: string;
+  experienceLevel?: string;
+  sortBy?: string;
+  sortOrder?: 'asc' | 'desc';
 }
 
 // Added DashboardStats required by StatCards.tsx
